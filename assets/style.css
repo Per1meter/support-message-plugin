@@ -1,0 +1,84 @@
+.queries-container{
+    padding: 30px 30px 0 0;
+}
+.queries-title{
+    margin: 0 0 40px;
+}
+.message-block{
+    height: 18px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    position: relative;
+}
+.message-success,
+.message-deleted{
+    position: absolute;
+    transform: translateY(100%);
+    transition: all 0.6s ease-out;
+}
+.message-success.active,
+.message-deleted.active{
+    transform: translateY(0);
+    transition: all 0.6s ease-out;
+}
+.queries-table{
+    background: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+.queries-table th:nth-child(1),
+.queries-table th:nth-child(2){
+    width: 150px;
+}
+.queries-table th:nth-child(4){
+    width: 50px;
+}
+.queries-table th:nth-child(5){
+    width: 100px;
+}
+.queries-table,
+.queries-table th,
+.queries-table td{
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+}
+.queries-table td,
+.queries-table th{
+    padding: 10px;
+}
+.queries-table td:nth-child(4){
+    text-align: center;
+}
+.queries-delete-button{
+    width: 100%;
+    display: block;
+}
+.queries-form{
+    width: 33%;
+}
+.queries-form .row{
+    margin-bottom: 10px;
+}
+.queries-form label{
+    display: block;
+    margin-bottom: 10px;
+}
+.queries-form input{
+    width: 100%;
+}
+.queries-form textarea{
+    width: 100%;
+    min-height: 200px;
+    resize: none;
+    padding: 5px;
+}
+.queries-form select{
+    min-width: 200px;
+}
+.queries-form .row-flex{
+    display: flex;
+    vertical-align: middle;
+    justify-content: space-between;
+}
